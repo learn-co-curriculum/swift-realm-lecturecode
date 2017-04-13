@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C94533C1FB415F64591053B /* Pods_playingWithRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 937D13A65CB84E96C3E57C67 /* Pods_playingWithRealm.framework */; };
 		8F6D9F511E9FC44A008ED688 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6D9F501E9FC44A008ED688 /* AppDelegate.swift */; };
 		8F6D9F531E9FC44A008ED688 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6D9F521E9FC44A008ED688 /* ViewController.swift */; };
 		8F6D9F561E9FC44A008ED688 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F6D9F541E9FC44A008ED688 /* Main.storyboard */; };
 		8F6D9F581E9FC44A008ED688 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F6D9F571E9FC44A008ED688 /* Assets.xcassets */; };
 		8F6D9F5B1E9FC44A008ED688 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F6D9F591E9FC44A008ED688 /* LaunchScreen.storyboard */; };
+		8F6D9F631E9FC775008ED688 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6D9F621E9FC775008ED688 /* Student.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		38B8D3C52D0AEA5EF11A4692 /* Pods-playingWithRealm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-playingWithRealm.release.xcconfig"; path = "Pods/Target Support Files/Pods-playingWithRealm/Pods-playingWithRealm.release.xcconfig"; sourceTree = "<group>"; };
 		8F6D9F4D1E9FC44A008ED688 /* playingWithRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playingWithRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F6D9F501E9FC44A008ED688 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F6D9F521E9FC44A008ED688 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,9 @@
 		8F6D9F571E9FC44A008ED688 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F6D9F5A1E9FC44A008ED688 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F6D9F5C1E9FC44A008ED688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F6D9F621E9FC775008ED688 /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		937D13A65CB84E96C3E57C67 /* Pods_playingWithRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_playingWithRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAEE004E4E280963F9E02CB3 /* Pods-playingWithRealm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-playingWithRealm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-playingWithRealm/Pods-playingWithRealm.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C94533C1FB415F64591053B /* Pods_playingWithRealm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,8 @@
 			children = (
 				8F6D9F4F1E9FC44A008ED688 /* playingWithRealm */,
 				8F6D9F4E1E9FC44A008ED688 /* Products */,
+				A577B4857A3F111BE722DDD0 /* Pods */,
+				D5EA5F98459F897F16A99931 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +65,30 @@
 			children = (
 				8F6D9F501E9FC44A008ED688 /* AppDelegate.swift */,
 				8F6D9F521E9FC44A008ED688 /* ViewController.swift */,
+				8F6D9F621E9FC775008ED688 /* Student.swift */,
 				8F6D9F541E9FC44A008ED688 /* Main.storyboard */,
 				8F6D9F571E9FC44A008ED688 /* Assets.xcassets */,
 				8F6D9F591E9FC44A008ED688 /* LaunchScreen.storyboard */,
 				8F6D9F5C1E9FC44A008ED688 /* Info.plist */,
 			);
 			path = playingWithRealm;
+			sourceTree = "<group>";
+		};
+		A577B4857A3F111BE722DDD0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BAEE004E4E280963F9E02CB3 /* Pods-playingWithRealm.debug.xcconfig */,
+				38B8D3C52D0AEA5EF11A4692 /* Pods-playingWithRealm.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D5EA5F98459F897F16A99931 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				937D13A65CB84E96C3E57C67 /* Pods_playingWithRealm.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F6D9F5F1E9FC44A008ED688 /* Build configuration list for PBXNativeTarget "playingWithRealm" */;
 			buildPhases = (
+				825C94063A2B1D5F4A3F87B2 /* [CP] Check Pods Manifest.lock */,
 				8F6D9F491E9FC44A008ED688 /* Sources */,
 				8F6D9F4A1E9FC44A008ED688 /* Frameworks */,
 				8F6D9F4B1E9FC44A008ED688 /* Resources */,
+				FC4C2CC5038130CE824D39C4 /* [CP] Embed Pods Frameworks */,
+				8D347D67DB483996D1EEFF02 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,12 +162,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		825C94063A2B1D5F4A3F87B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8D347D67DB483996D1EEFF02 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-playingWithRealm/Pods-playingWithRealm-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC4C2CC5038130CE824D39C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-playingWithRealm/Pods-playingWithRealm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8F6D9F491E9FC44A008ED688 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8F6D9F531E9FC44A008ED688 /* ViewController.swift in Sources */,
+				8F6D9F631E9FC775008ED688 /* Student.swift in Sources */,
 				8F6D9F511E9FC44A008ED688 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +338,7 @@
 		};
 		8F6D9F601E9FC44A008ED688 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAEE004E4E280963F9E02CB3 /* Pods-playingWithRealm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WNAGBXF4G9;
@@ -272,6 +352,7 @@
 		};
 		8F6D9F611E9FC44A008ED688 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38B8D3C52D0AEA5EF11A4692 /* Pods-playingWithRealm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WNAGBXF4G9;
@@ -302,6 +383,7 @@
 				8F6D9F611E9FC44A008ED688 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
